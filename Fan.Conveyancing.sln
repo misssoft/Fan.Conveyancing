@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fan.StampDuty", "StampDutyC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fan.StampDuty.Tests", "StampDutyCalculator.Lib.Tests\Fan.StampDuty.Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fan.Conveyancing.Web", "Fan.Conveyancing.Web\Fan.Conveyancing.Web.csproj", "{A0EED680-BCC1-4BF0-AA45-F7700949AE9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fan.Conveyancing.Web.Tests", "Fan.Conveyancing.Web.Tests\Fan.Conveyancing.Web.Tests.csproj", "{9DEC954C-AAA5-4667-B9A5-3F97220FE083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0EED680-BCC1-4BF0-AA45-F7700949AE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EED680-BCC1-4BF0-AA45-F7700949AE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EED680-BCC1-4BF0-AA45-F7700949AE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EED680-BCC1-4BF0-AA45-F7700949AE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DEC954C-AAA5-4667-B9A5-3F97220FE083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEC954C-AAA5-4667-B9A5-3F97220FE083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEC954C-AAA5-4667-B9A5-3F97220FE083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEC954C-AAA5-4667-B9A5-3F97220FE083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

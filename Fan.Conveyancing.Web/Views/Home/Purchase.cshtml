@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Purchase";
+}
+
+@model Fan.Conveyancing.QuoteSettings
+
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Purchase</p>
+
+@Html.EditorFor(m => m.IsLeasehold);
+
+@Html.EditorFor(m => m.Mortgaged);
+
+@Html.EditorFor(m => m.IsStaff);
+
+@Html.EditorFor(m => m.IsMember);
+
+@Html.EditorFor(m => m.IsSecondHome);
+
+@Html.EditorFor(m => m.IsLeasehold);
